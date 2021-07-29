@@ -1,0 +1,94 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1{
+  font-family: Poppins;
+  font-size: 80px;
+  color: white
+}
+
+h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: Poppins;
+  font-size: 20px;
+}
+
+/* Custom design below! */
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.container h2{
+  color: rgb(49, 49, 49);
+  margin-top: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+  margin-top: 16px;
+  text-align: right;
+}
+.list-inline li {
+  display: inline-block;
+  letter-spacing: 4px;
+  font-size: 20px;
+    margin-right: 8px;
+}
+
+.btn-green {
+  background-color: lightseagreen;
+  color: lightgoldenrodyellow;
+  padding: 16px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn-green:hover {
+  background-color: darkcyan;
+  color: lightgoldenrodyellow;
+  transition: .3s;
+  text-decoration: underline;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

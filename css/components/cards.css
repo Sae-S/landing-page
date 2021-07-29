@@ -1,0 +1,46 @@
+@import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
+
+.card-container {
+  width: 300px;
+  margin: 16px;
+}
+
+.card-white {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.card-white img{
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+}
+
+.card-clear {
+  background-color: lightgoldenrodyellow;
+  padding: 3px;
+  width: 100%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 0 8px;
+}
+
+.list-inline a {
+  color: lightseagreen;
+}
+
+.list-inline a:hover {
+  color: darkcyan;
+}
